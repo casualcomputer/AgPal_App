@@ -1,4 +1,7 @@
 # AgPal_App
+
+**This colab notebook shows the stuff I tried so far**: http://bit.ly/3FgL8qJ
+
 This Streamlit app for AgPal:
 * Shows the results of our semantic search 
 * Shows the results of the AgPal searcch
@@ -13,4 +16,3 @@ Features in-process:
 
 Note, for the Google Drive feature to work, you need to create have a secret .streamlit/secrets.toml within our project directory.
 
-**This colab notebook shows the stuff I tried so far**: http://bit.ly/3FgL8qJ
