@@ -10,6 +10,7 @@ This Streamlit app for AgPal:
   * Stores user feedback into an Excel sheet (search log): https://bit.ly/3W3Yyh7
   
 Features in-process:
+* Refine text preprocessing 
 * Modifying the table for user feedback to upload performance comparison data
 * Adding more models to the interface
 * Fine tuning models for semantic search, lexical search; define ranking function
