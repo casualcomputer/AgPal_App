@@ -14,5 +14,5 @@ Features in-process:
 * Adding more models to the interface
 * Fine tuning models for semantic search, lexical search; define ranking function
 
-Note, for the Google Drive feature to work, you need to create have a secret .streamlit/secrets.toml within our project directory.
+Note, for the Google Drive feature to work, you need to create have a .streamlit/secrets.toml within your project directory.
 
