@@ -9,11 +9,13 @@ This Streamlit app for AgPal:
   * Based on user input, prints out performance comparison
   * Stores user feedback into an Excel sheet (search log): https://bit.ly/3W3Yyh7
   
-Features in-process:
+Features/Improvements in-process:
 * Refine text preprocessing 
-* Modifying the table for user feedback to upload performance comparison data
+* Modifying the user feedback mechanism, allowing performance data to be recorded
 * Adding more models to the interface
 * Fine tuning models for semantic search, lexical search; define ranking function
+* Making codes cleaner, making app faster
 
 Note, for the Google Drive feature to work, you need to create have a .streamlit/secrets.toml within your project directory.
 
+Link to the current demo: http://bit.ly/3uJoK4t
