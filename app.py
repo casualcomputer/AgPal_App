@@ -11,7 +11,8 @@ from datetime import datetime
 import numpy as np
 import streamlit as st 
 from pandas import DataFrame
-
+import ast
+import json
 from gspread_pandas import Spread,Client
 from google.oauth2 import service_account
 
@@ -246,8 +247,11 @@ if button_sent and bad_results.shape[0]>0:
     scope = ['https://spreadsheets.google.com/feeds',
              'https://www.googleapis.com/auth/drive']
     
+    service_account_info = json.load(open('agpal_plus_8d2114c78f0a.json'))
     credentials = service_account.Credentials.from_service_account_info(
-                    st.secrets["gcp_service_account"], scopes = scope)
+                   service_account_info, scopes = scope)
+    
+    
     client = Client(scope=scope,creds=credentials)
     
     spreadsheetname = "agpal_feedback_db"
