@@ -16,6 +16,6 @@ Features/Improvements in-process:
 * Fine tuning models for semantic search, lexical search; define ranking function
 * Making codes cleaner, making app faster
 
-Note, for the Google Drive feature to work, you need to create have a .streamlit/secrets.toml within your project directory.
+Note, for the Google Drive feature to work, you need to copy and paste the credential file (agpal_plus_8d2114c78f0a.json) to your project directory.
 
 Link to the current demo: http://bit.ly/3uJoK4t
